@@ -8,6 +8,8 @@ This is what the current version of the tool looks like, it can change in the fu
 First of all, if you want to understand how this tool works, you need to understand the structure of Windows Scheduled Task. The entire structure is explained by Microsoft under this link: https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-schema. And this is the documentaion that I was used creating that tool.
 
 ## How can we create a task?
+There are two main options that we can create a task. The first option is using a command line tool SCHTASKS, this is the option you'll probably see most often when dealing with security incidents. The second option is to use Windows GUI tool called Task Scheduler (taskschd.msc).
+
 
 
 # Attribution
