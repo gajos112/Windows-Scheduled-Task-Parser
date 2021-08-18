@@ -5,7 +5,10 @@ This is what the current version of the tool looks like, it can change in the fu
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Windows%20Scheduled%20Task%20Parser.png?raw=true)
 
 # How does it work?
-First of all, if you want to understand how this tool works, you need to understand the structure of Windows Scheduled Task. The entire structure is exmplained by Microsoft under this link: https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-schema. And this is the documentaion that I was used creating that tool. 
+First of all, if you want to understand how this tool works, you need to understand the structure of Windows Scheduled Task. The entire structure is explained by Microsoft under this link: https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-schema. And this is the documentaion that I was used creating that tool.
+
+## How can we create a task?
+
 
 # Attribution
 "Icon made by Freepik from www.flaticon.com"
