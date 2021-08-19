@@ -63,10 +63,11 @@ Once you open Task Scheduler and start creating a new task you will get the wind
   </RegistrationInfo>
 ```
 
-And here we cna see that tool was able to parse that information without any issues.
+And here we can see that tool was able to parse that information without any issues.
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Tool_Output_1.png?raw=true)
 
 
+The next tab defines triggers. Trrigers indicate when and how many times specififc task will be executed. What is very important to point out here is that a schedule task can have several triggers and they all are stored in the XML file.
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Triggers.png?raw=true)
 
