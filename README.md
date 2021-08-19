@@ -54,6 +54,15 @@ There are two main options that we can use to create a task. The first option is
 
 Once you open Task Scheduler and start creating a new task you will get the windows that I attached above. Here you can specify some basic things about the task like name or description, in addiiton to that you can also specify if the task is hidden or what priviliges it will use during execution. All that information are defined in the XML file that's gonna be crated once you finish creating task.
 
+```
+  <RegistrationInfo>
+    <Date>2021-08-19T22:05:28.7519938</Date>
+    <Author>COMPUTER\DFIR</Author>
+    <Description>Malicious task number 1</Description>
+    <URI>\MaliciousTask1</URI>
+  </RegistrationInfo>
+```
+
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Triggers.png?raw=true)
 
