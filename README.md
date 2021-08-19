@@ -52,7 +52,7 @@ There are two main options that we can use to create a task. The first option is
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/CreateTask.png?raw=true)
 
-![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/CreateTask.png?raw=true)
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Triggers.png?raw=true)
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Actions.png?raw=true)
 
