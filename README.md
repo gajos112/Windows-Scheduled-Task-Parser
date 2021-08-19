@@ -4,7 +4,7 @@ Windows Scheduled Task Parser - DFIR's tool parsing XML-based Windows Scheduled 
 This is what the current version of the tool looks like, it can change in the future.
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Windows%20Scheduled%20Task%20Parser.png?raw=true)
 
-As it has been said earlier, the tool only parses XML-based files. First we need to click FILE -> OPEN and choose the directory thta we want to parse. The tool checkes all files found in the directory (recursively) and check if the magic header of the file meets Scheduled Task requirements. The magic header for Windows Scheduled Task is **FF FE 3C 00 3F 00 78 00 6D 00 6C.
+As it has been said earlier, the tool only parses XML-based files. First we need to click FILE -> OPEN and choose the directory thta we want to parse. The tool checkes all files found in the directory (recursively) and check if the magic header of the file meets Scheduled Task requirements. The magic header for Windows Scheduled Task is FF FE 3C 00 3F 00 78 00 6D 00 6C.
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/OpenDirectory.png?raw=true)
 
