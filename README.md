@@ -51,10 +51,23 @@ There are two main options that we can use to create a task. The first option is
 
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/CreateTask.png?raw=true)
+Once you open Task Scheduler and start creating a new task you will get the windows that I attached above. Here you can specify some basic things about the task (like: name and description), but in addiiton to that you also configure if task is hidden and what priviliges it will use during execution. All that information are defined in the XML file that's gonna be crated once you finish creating task.
+
+
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Triggers.png?raw=true)
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Actions.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTrigger.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerOptions.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerAtLogon.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerDaily.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerTwoTasks.png?raw=true)
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Conditions.png?raw=true)
 
