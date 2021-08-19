@@ -39,6 +39,15 @@ All not parsed files will be listed in the Log Console that you can find in the 
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/LogConsole.PNG?raw=true)
 
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/CreateTask.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Actions.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Conditions.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Settings.png?raw=true)
+
+
 In addition to that, in the right top corner there are small "stats" that tell you how many files were parsed properly and how many of them were not (screenshot below).
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/ParsingStats.PNG?raw=true)
@@ -50,7 +59,7 @@ First of all, if you want to understand how this tool works, you need to underst
 There are two main options that we can use to create a task. The first option is using a command line tool called SCHTASKS, this is the option you'll probably see most often when dealing with security incidents. The second option is to use Windows GUI tool called Task Scheduler (taskschd.msc). And this is the tool that I will use to support myself in explaning Schedule Tasks. 
 
 
-
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/CreateTask.png?raw=true)
 
 # Attribution
 "Icon made by Freepik from www.flaticon.com"
