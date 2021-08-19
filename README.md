@@ -4,7 +4,7 @@ Windows Scheduled Task Parser - DFIR's tool parsing XML-based Windows Scheduled 
 This is what the current version of the tool looks like, it can change in the future.
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Windows%20Scheduled%20Task%20Parser.png?raw=true)
 
-```ruby
+```C#
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
