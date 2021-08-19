@@ -69,7 +69,9 @@ And here we can see that tool was able to parse that information without any iss
 
 The next tab defines triggers. Trrigers indicate when and how many times specififc task will be executed. What is very important to point out here is that a schedule task can have several triggers and they all are stored in the XML file.
 
-![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerOptions.png?raw=true)
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Triggers.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerAtLogon.png?raw=true)
 
 We have several types of triggers, and they are shown very well below. 
 
@@ -90,9 +92,9 @@ We have several types of triggers, and they are shown very well below.
         </xs:choice>
     </xs:group>
 ```
-![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Triggers.png?raw=true)
 
-![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerAtLogon.png?raw=true)
+
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerOptions.png?raw=true)
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerDaily.png?raw=true)
 
