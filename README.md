@@ -35,11 +35,11 @@ foreach (var file in files)
  }
 ```
 
-All not parsed files will be listed in the Log Console that you can find in the bottom of the window.
+All not parsed files will be listed in the Log Console that you can find in the bottom of the window (screenshot below).
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/LogConsole.PNG?raw=true)
 
-In addition to that, in the right top corner there are small "stats" that tell you how many files were parsed properly and how many of them were not.
+In addition to that, in the right top corner there are small "stats" that tell you how many files were parsed properly and how many of them were not (screenshot below).
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/ParsingStats.PNG?raw=true)
 
