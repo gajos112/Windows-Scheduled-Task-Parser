@@ -37,6 +37,8 @@ foreach (var file in files)
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/LogConsole.PNG?raw=true)
 
+![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/ParsingStats.PNG?raw=true)
+
 # How does it work?
 First of all, if you want to understand how this tool works, you need to understand the structure of Windows Scheduled Task. The entire structure is explained by Microsoft under this link: https://docs.microsoft.com/en-us/windows/win32/taskschd/task-scheduler-schema. And this is the documentaion that I was used creating that tool.
 
