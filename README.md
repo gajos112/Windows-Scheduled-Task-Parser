@@ -5,9 +5,28 @@ This is what the current version of the tool looks like, it can change in the fu
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Windows%20Scheduled%20Task%20Parser.png?raw=true)
 
 ```C#
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+string[] files = Directory.GetFiles(path, "*", SearchOption.AllDirectories);
+foreach (var file in files)
+  {
+    try
+    {
+      using (FileStream fileStream = new FileStream(file, FileMode.Open, FileAccess.Read))
+        {
+          using (var fileReader = new BinaryReader(fileStream, new ASCIIEncoding()))
+          {
+            //FF FE 3C 00 3F 00 78 00 6D 00 6C Magic Header for Windows XML tasks
+            //255 254 60 0 63 0 120 0 109 0 108
+            byte[] buffer = new byte[10];
+            buffer = fileReader.ReadBytes(10);
+            
+            if (buffer[0] == 255 && buffer[1] == 254 && buffer[2] == 60 && buffer[3] == 0 && buffer[4] == 63 && buffer[5] == 0 && buffer[6] == 120 && buffer[7] == 0 && buffer[8] == 109 && buffer[9] == 0 && buffer[10] == 108)
+            {
+                <parse>
+            }
+           }
+         }
+    }
+ }
 ```
 
 # How does it work?
