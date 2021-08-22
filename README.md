@@ -96,6 +96,8 @@ We have several types of triggers, and they are shown very well below.
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerOptions.png?raw=true)
 
+The most complicated trigger (that gives us several options) is an "on a schedule" trigger. That option allows to add triggers based on calendar. First option "One time" as the name suggests adds trigger that will run task only once. Other options under that type are Daily, Weekly and Monthly. All four options (including "One time") have multiple additional settings. Most important are "Repeat task every" and "for a duration of". These two settings allow us to repeat task execution every some period of time and we can also specifu for how long wee want to repeat it. So generaly speaking, using that trigger type we can execute the task for example monthly, but after first exectuion we can repeat it every 5 minutes for next 10 days. It's very important feature to understand and remember, the bad reasoning can lead to a wrong verdict. 
+
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerDaily.png?raw=true)
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerTwoTasks.png?raw=true)
