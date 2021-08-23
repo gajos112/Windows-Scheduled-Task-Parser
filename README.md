@@ -124,9 +124,11 @@ Windows Scheduled Task Parser enumerates all triggers. Let's take a look at the 
       </ScheduleByWeek>
 </CalendarTrigger>
 ```
-Based on the code above we can see that we have at least two triggers of the same type - they are bot "CalendarTriggers". For each XML node we can have sevreal subnodes like: StartBoundary, ScheduleByDay, EndBoundary and muc more. The tool will check all of them and make a note of it. 
+Based on the code above we can see that we have at least two triggers of the same type - they are both "CalendarTriggers". For each XML node, we can have sevreal subnodes like: StartBoundary, ScheduleByDay, EndBoundary and muhc more. The tool will check all of them and make a note of it. 
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerTwoTasks.png?raw=true)
+
+The next tab called "Actions" specifies what action will be executed once task is launched. As in the previous tab, we can create multiple diffrent actions. For example, one task can start 12 different executables. 
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/Actions.png?raw=true)
 
