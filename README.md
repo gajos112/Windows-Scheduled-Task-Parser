@@ -100,8 +100,7 @@ The most complicated trigger type (that gives us several options) is the "on a s
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerDaily.png?raw=true)
 
-This tool enumerates all triggers, for example:
-
+Windows Scheduled Task Parser enumerates all triggers. Let's take a look at the example below:
 ```
 <CalendarTrigger>
       <StartBoundary>2021-08-23T14:30:12</StartBoundary>
@@ -125,8 +124,7 @@ This tool enumerates all triggers, for example:
       </ScheduleByWeek>
 </CalendarTrigger>
 ```
-
-Based on the code above we can see that we have at least two triggers of the same type, which is CalendarTrigger.
+Based on the code above we can see that we have at least two triggers of the same type - they are bot "CalendarTriggers". For each XML node we can have sevreal subnodes like: StartBoundary, ScheduleByDay, EndBoundary and muc more. The tool will check all of them and make a note of it. 
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerTwoTasks.png?raw=true)
 
