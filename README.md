@@ -73,7 +73,7 @@ The next tab defines triggers. Trrigers indicate when and how many times specifi
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerAtLogon.png?raw=true)
 
-We have several types of triggers, and they are shown very well below. 
+We have several types of triggers, and they are shown quite good on the screehsot below. 
 
 ```
    <xs:complexType name="triggersType">
@@ -96,9 +96,37 @@ We have several types of triggers, and they are shown very well below.
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerOptions.png?raw=true)
 
-The most complicated trigger (that gives us several options) is an "on a schedule" trigger. That option allows to add triggers based on calendar. First option "One time" as the name suggests adds trigger that will run task only once. Other options under that type are Daily, Weekly and Monthly. All four options (including "One time") have multiple additional settings. Most important are "Repeat task every" and "for a duration of". These two settings allow us to repeat a task execution every some period of time and we can also specify for how long we want to repeat it. To better ilustrate it let,s use an example. Let's say we create a task that will trigger once, but will repeat it every 5 minutes for next 10 days. Does it then mean that malicious software will be executed once? Not really.... It's very important feature to understand and of course remember, becuase the wrong understaing can lead to a wrong verdict and big mistake in the investigation. 
+The most complicated trigger type (that gives us several options) is the "on a schedule" trigger. That option allows to add triggers based on the calendar. First option "One time" as the name suggests adds trigger that will run task only once. Other options under that type are Daily, Weekly and Monthly. All four options (including "One time") have multiple additional settings. Most important are "Repeat task every" and "for a duration of". These two settings allow us to repeat the task execution every some period of time and we can also specify for how long we want to repeat it. To better ilustrate it let's use an example. Let's say we created a task that will trigger once, but will repeat every 5 minutes for next 10 days. Does it then mean that malicious software will be executed only one time? Not really... It's very important feature to understand and of course remember, becuase the wrong understaing can lead to a wrong verdict and big mistakes in the investigation. 
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerDaily.png?raw=true)
+
+This tool enumerates all triggers, for example:
+
+```
+<CalendarTrigger>
+      <StartBoundary>2021-08-23T14:30:12</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByWeek>
+        <DaysOfWeek>
+          <Monday />
+          <Tuesday />
+        </DaysOfWeek>
+        <WeeksInterval>6</WeeksInterval>
+      </ScheduleByWeek>
+</CalendarTrigger>
+<CalendarTrigger>
+      <StartBoundary>2021-08-23T14:30:19</StartBoundary>
+      <Enabled>true</Enabled>
+      <ScheduleByWeek>
+        <DaysOfWeek>
+          <Wednesday />
+        </DaysOfWeek>
+        <WeeksInterval>43</WeeksInterval>
+      </ScheduleByWeek>
+</CalendarTrigger>
+```
+
+Based on the code above we can see that we have at least two triggers of the same type, which is CalendarTrigger.
 
 ![alt text](https://github.com/gajos112/Windows-Scheduled-Task-Parser/blob/main/Images/NewTriggerTwoTasks.png?raw=true)
 
